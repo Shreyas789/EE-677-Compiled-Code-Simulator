@@ -1,0 +1,9 @@
+IN:X
+IN:Y
+IN:Z
+IN:W
+NOT:not1 Y
+NOT:not2 W
+AND:and1 not1 Z
+OR:or1 and1 X not2
+AND:and2 X and1 not2
